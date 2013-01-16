@@ -2,6 +2,10 @@ package com.yuluxu.algorithm.sort.impl;
 
 import com.yuluxu.algorithm.sort.ISort;
 
+/**
+ * 插入排序
+ * 
+ * /
 public class InsertionSort implements ISort
 {
 	@Override
