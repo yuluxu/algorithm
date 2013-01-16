@@ -10,4 +10,5 @@
 # eclipse #
 .project
 .settings
+.classpath
 bin/
