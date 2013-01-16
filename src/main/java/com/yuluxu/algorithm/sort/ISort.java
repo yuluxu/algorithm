@@ -1,7 +1,7 @@
 package com.yuluxu.algorithm.sort;
 
 /**
- * 添加注释
+ * 排序接口
  * @author xuyulu86
  *
  */
