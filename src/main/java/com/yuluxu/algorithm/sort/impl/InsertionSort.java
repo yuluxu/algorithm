@@ -4,6 +4,7 @@ import com.yuluxu.algorithm.sort.ISort;
 
 /*
  * 插入排序
+ * 加入详细的注释
  */
 public class InsertionSort implements ISort
 {
@@ -23,4 +24,6 @@ public class InsertionSort implements ISort
 			nums[j+1] = key;
 		}
 	}
+	
+	// testing 代码
 }
