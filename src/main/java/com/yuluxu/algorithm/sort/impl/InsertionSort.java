@@ -23,4 +23,6 @@ public class InsertionSort implements ISort
 			nums[j+1] = key;
 		}
 	}
+	
+	// testing 代码
 }
