@@ -2,9 +2,10 @@ package com.yuluxu.algorithm.sort.impl;
 
 import com.yuluxu.algorithm.sort.ISort;
 
-/*
+/**
  * 插入排序
- * 加入详细的注释
+ * @author yuluxu
+ *
  */
 public class InsertionSort implements ISort
 {
@@ -13,8 +14,7 @@ public class InsertionSort implements ISort
 	{
 		for (int i = 1; i < nums.length; i++)
 		{
-			// Fixed For #53
-			int key = nums[i];// fix issue #55 & Dev1开发
+			int key = nums[i];
 			int j = i -1;
 			while(j >= 0 && nums[j] > key)
 			{

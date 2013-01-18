@@ -2,9 +2,14 @@ package com.yuluxu.algorithm.sort.impl;
 
 import com.yuluxu.algorithm.sort.ISort;
 
+/**
+ * 冒泡排序
+ * 
+ * @author yuluxu
+ * 
+ */
 public class BubbleSort implements ISort
 {
-	// Testing分支添加的注释
 	@Override
 	public void sort(int[] nums)
 	{

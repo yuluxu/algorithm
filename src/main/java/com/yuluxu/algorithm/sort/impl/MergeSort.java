@@ -2,6 +2,11 @@ package com.yuluxu.algorithm.sort.impl;
 
 import com.yuluxu.algorithm.sort.ISort;
 
+/**
+ * 合并排序
+ * @author yuluxu
+ *
+ */
 public class MergeSort implements ISort
 {
 	@Override
