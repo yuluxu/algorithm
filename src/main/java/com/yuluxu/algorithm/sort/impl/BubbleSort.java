@@ -13,6 +13,7 @@ public class BubbleSort implements ISort
 	@Override
 	public void sort(int[] nums)
 	{
+		// 特性B开发
 		for (int i = 0; i < nums.length; i++)
 		{
 			for (int j = nums.length - 1; j > i; j--)
