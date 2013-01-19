@@ -10,13 +10,9 @@ import com.yuluxu.algorithm.sort.ISort;
  */
 public class BubbleSort implements ISort
 {
-	// Edit on web
-	// Edit on web 2
 	@Override
 	public void sort(int[] nums)
 	{
-		// 特性B开发
-		// 特性开发
 		for (int i = 0; i < nums.length; i++)
 		{
 			for (int j = nums.length - 1; j > i; j--)
