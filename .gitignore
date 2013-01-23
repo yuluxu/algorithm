@@ -3,12 +3,10 @@
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
 # eclipse #
 .project
 .settings
-.classpath
 bin/
